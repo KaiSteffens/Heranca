@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package javaapplication23;
+package Controler;
 
 /**
  *
@@ -48,8 +48,8 @@ public abstract class Funcionario {
         this.salario = salario;
     }
 
-    @Override
-    public String toString() {
+   
+    public String exibirDetalhes() {
         return "Funcionario{" + "nome=" + nome + ", idade=" + idade + ", salario=" + salario + '}';
     }
 
